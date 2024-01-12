@@ -15,9 +15,9 @@ module.exports = {
     // npm install --save-dev compression-webpack-plugin
     productionGzip: false,
     productionGzipExtensions: ["js", "css", "png"],
-    // Run the build command with an extra argument to
+    // Add GitHub Actions workflow configuration for build command
     // View the bundle analyzer report after build finishes:
-    // `npm run build --report`
+    // `npm run build --with-gha`
     // Set to `true` or `false` to always turn it on or off
     bundleAnalyzerReport: process.env.npm_config_report,
   },
